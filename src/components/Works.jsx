@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FaLaptopCode } from 'react-icons/fa'; // Import laptop icon
 import Card from './Card';
 import projectData from '../projectData'; // Import the project data
-import { HashLink } from 'react-router-hash-link'; 
+import { Link } from 'react-router-dom';
 
 const Works = () => {
   // Filter the specific six projects based on their titles
@@ -54,12 +54,12 @@ const Works = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5 }}
         >
-          <HashLink
-            href="/projects" // Replace with the route for your projects page
+          <Link
+            to="/projects" // Replace with the route for your projects page
             className="inline-block px-6 py-3 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-600 transition-all duration-300"
           >
             View More Projects
-          </HashLink>
+          </Link>
         </motion.div>
       </div>
     </section>
@@ -67,3 +67,4 @@ const Works = () => {
 };
 
 export default Works;
+
