@@ -64,7 +64,7 @@ const Header = () => {
               smooth
               className="text-lg text-white transition duration-300 transform hover:scale-110 hover:underline hover:underline-offset-4"
             >
-              Works
+              Projects
             </HashLink>
           </li>
           <li>
@@ -132,7 +132,7 @@ const Header = () => {
                 onClick={() => setMobileMenuOpen(false)}
                 className="text-lg transition duration-300 transform hover:scale-110 hover:underline hover:underline-offset-4"
               >
-                Works
+                Projects
               </HashLink>
             </li>
             <li>
