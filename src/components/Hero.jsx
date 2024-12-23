@@ -10,7 +10,7 @@ function Hero() {
     name: "Kedhareswar Matha",
     github: "https://github.com/Kedhar-mt",
     linkedIn: "https://www.linkedin.com/in/kedhareswar-matha-436803254/",
-    leetcode: "https://leetcode.com/yourleetcode",
+    leetcode: "https://leetcode.com",
     resume: "src/assets/Resume October (1).pdf",
     twitter:"https://twitter.com/your-profile",
     instagram:"https://instagram.com/your-profile",
